@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/dividerColor">
+
+        <GridView
+            android:id="@+id/gv_signing"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:horizontalSpacing="1dp"
+            android:numColumns="3" />
+
+        <RelativeLayout
+            android:id="@+id/rel_sign_hot_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorwhite">
+
+            <ImageView
+                android:id="@+id/iv_house"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_department5" />
+
+            <TextView
+                android:id="@+id/tv_house"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_house"
+                android:layout_toEndOf="@+id/iv_house"
+                android:layout_marginLeft="10dp"
+                android:text="@string/manage_signing_loft_a"
+                android:textColor="@color/colorblack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tv_house"
+                android:layout_below="@+id/tv_house"
+                android:layout_marginTop="10dp"
+                android:text="@string/manage_signing_62"
+                android:textColor="#666666"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sign_order_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_dingdan"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_sign_order_number"
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_signing_20170725083001122" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sign_rent_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_zuzhuriqi"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_sign_rent_date"
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_signing_2017_7_16_2018_7_15" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sign_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_ruzhufangjian"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_sign_room"
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_signing_101" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sign_deposit_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_yifuyajin"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_sign_deposit_pay"
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_signing_1511" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pay_plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_hot_apartment"
+                android:drawablePadding="5dp"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_zhifujihua"
+                android:textColor="@color/textBlack" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sign_year_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_1511nian"
+                android:textColor="@color/textBlack" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sign_date_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_2018_7_15"
+                android:textColor="@color/textBlack" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sign_extra_cost"
+            style="@style/TxtTitleStyle"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height_default"
+            android:background="@drawable/selector_setting_item"
+            android:drawableLeft="@drawable/ic_hot_apartment"
+            android:drawablePadding="5dp"
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_pull_down_arrow"
+            android:gravity="center_vertical"
+            android:text="@string/manage_signing_ewai"
+            android:textColor="@color/textBlack" />
+        <TextView
+            android:id="@+id/tv_extra_cost_display"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="@string/manage_signing_yincang"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_sign_water_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_shuifei"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_sign_water_cost"
+                style="@style/TxtTitleStyleGray"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_signing_0_5lifangmi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sign_electric_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_dianfei"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_sign_electric_cost"
+                style="@style/TxtTitleStyleGray"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_signing_0_5du" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sign_management_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_wuyefei"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_ll_sign_management_cost"
+                style="@style/TxtTitleStyleGray"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_signing_150" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_siign_contract_way"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_signing_lianxi"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_sign_contract_way"
+                style="@style/TxtTitleStyleGray"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_signing_029_11112222" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

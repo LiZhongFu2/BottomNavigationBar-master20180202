@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.master.qualitydepartment.fragment.ManageFragment"
+    android:orientation="vertical"
+    android:background="@color/dividerColor">
+
+    <LinearLayout
+        android:id="@+id/ll_manage_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="30dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/btn_manage_precontract"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/radiobutton_background"
+                android:button="@null"
+                android:text="@string/manage_yuyue"
+                android:gravity="center"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textSize="14sp"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/btn_manage_booking"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/radiobutton_background1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/manage_yuding"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/btn_manage_signing"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/radiobutton_background2"
+                android:button="@null"
+                android:text="@string/manage_qianyue"
+                android:gravity="center"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/fragment_manage_login"
+        android:id="@+id/xml_manage_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+    <include layout="@layout/fragment_manage_precontract"
+        android:id="@+id/xml_manage_precontract"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <include layout="@layout/fragment_manage_booking"
+        android:id="@+id/xml_manage_booking"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <include layout="@layout/fragment_manage_signing"
+        android:id="@+id/xml_manage_signing"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

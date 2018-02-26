@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">品质公寓</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_me_text_authenticate">去认证</string>
+    <string name="fragment_me_title_authentication">实名认证</string>
+    <string name="fragment_me_title_privilege">会员特权</string>
+    <string name="fragment_me_title_order">我的订单</string>
+    <string name="fragment_me_text_points">积分：0</string>
+    <string name="fragment_me_text_credit_level">信用等级：LV0</string>
+    <string name="fragement_me_iv_nickname">昵称</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="fragment_me_title_wallet">我的钱包</string>
+    <string name="fragment_me_title_collection">我的收藏</string>
+    <string name="fragment_me_title_contact_us">联系我们</string>
+    <string name="immediately_pay_2018_1">2018年1月账单</string>
+    <string name="immediately_pay_zujin">租金</string>
+    <string name="immediately_pay_0_00">￥0.00</string>
+    <string name="immediately_pay_shuifei">水费</string>
+    <string name="immediately_pay_shurujine">请输入购买金额</string>
+    <string name="immediately_pay_dianfei">电费</string>
+    <string name="immediately_pay_wuyefei">物业费</string>
+    <string name="immediately_pay_150_00">150.00</string>
+    <string name="immediately_pay_qitafei">其他费用</string>
+    <string name="immediately_pay_10_00">10.00</string>
+    <string name="immediately_pay_heji">合计</string>
+    <string name="immediately_pay_renminbi">￥</string>
+    <string name="immediately_pay_160_00">160.00</string>
+    <string name="immediately_pay_lijijiaofei">立即缴费</string>
+    <string name="payment_2018_1">2018年1月缴费单</string>
+    <string name="payment_210_00">210.00</string>
+    <string name="payment_xuzezhifu">选择支付方式</string>
+    <string name="payment_wodeqianbao">我的钱包</string>
+    <string name="paymentz_zhifubao">支付宝</string>
+    <string name="payment_weixin">微信</string>
+    <string name="payment_fukuanjine">付款金额 :</string>
+    <string name="payment_210">￥210</string>
+    <string name="payment_queren">确认支付</string>
+    <string name="payment_bill_benyueweizhifu">本月未支付</string>
+    <string name="payment_bill_zujin">租金:</string>
+    <string name="payment_bill_0_00">￥0.00</string>
+    <string name="payment_bill__5_0_m_3">水费:(￥5.0/m^3)</string>
+    <string name="payment_bill_30m_3">可用30m^3</string>
+    <string name="payment_bill_0_5">电费:(￥0.5/度)</string>
+    <string name="payment_bill_30">可用30度</string>
+    <string name="payment_bill_2017_8">物业费:(2017.8)</string>
+    <string name="payment_bill_150_00">￥150.00</string>
+    <string name="payment_bill_1">其他费用:(清洁费1次)</string>
+    <string name="payment_bill_10_00">￥10.00</string>
+    <string name="payment_bill_heji">合计:</string>
+    <string name="payment_bill_160_00">￥160.00</string>
+    <string name="payment_bill_lijijiaofei">立即缴费</string>
+    <string name="payment_bill_yizhifu">已支付</string>
+    <string name="payment_bill_n_2017_7_16_2018_7_15">租金: （所含租住日期:2017.7.16-2018.7.15）</string>
+    <string name="payment_bill_18132_00">￥18132.00</string>
+    <string name="payment_bill_50m_3_5_0_m_3">水费:(50m^3，￥5.0/m^3)</string>
+    <string name="payment_bill_500_00">￥500.00</string>
+    <string name="payment_bill_100_0_5">电费:(100度，￥0.5/度)</string>
+    <string name="payment_bill_50_0">￥50.0</string>
+    <string name="payment_bill_2017_7">物业费:(2017.7)</string>
+    <string name="payment_bill_qitafeiyong">其他费用:(清洁费)</string>
+    <string name="payment_bill_18332_00">￥18332.00</string>
+    <string name="manage_yuyue">预约</string>
+    <string name="manage_yuding">预订</string>
+    <string name="manage_qianyue">签约</string>
+    <string name="manage_login_dengluhou">登陆后可管理您的公寓订单信息</string>
+    <string name="manage_login_denglu">登陆/注册</string>
+    <string name="manage_booking_yuding">预定fragment界面未给出</string>
+    <string name="manage_precontract_yuyuezhuangtai">预约状态</string>
+    <string name="manage_precontract_yuyuechenggong">预约成功</string>
+    <string name="manage_precontract_loft_a">万科泊寓（软件园店）LOFT A户型</string>
+    <string name="manage_precontract_62">地址:西安市雁塔区科技三路62号</string>
+    <string name="manage_precontract_dingdanbianhao">订单编号</string>
+    <string name="manage_precontract_20170725083001122">20170725083001122</string>
+    <string name="manage_precontract_yudingshijian">预约时间</string>
+    <string name="manage_precontract_2017_07_25_08_30">2017.07.25 08:30</string>
+    <string name="manage_precontract_zhifujihua">支付计划</string>
+    <string name="manage_precontract_1679_1799">月支付: ￥1679-1799月</string>
+    <string name="manage_precontract_1511_1617">年支付: ￥1511-1617月</string>
+    <string name="manage_precontract_ewaifeiyong">额外费用</string>
+    <string name="manage_precontract_shuifei">水费</string>
+    <string name="manage_precontract_0_5">￥0.5立方米</string>
+    <string name="manage_precontract_dianfei">电费</string>
+    <string name="manage_precontract_0_5du">￥0.5/度</string>
+    <string name="manage_precontract_wuyefei">物业费</string>
+    <string name="manage_precontract_150">￥150/月</string>
+    <string name="manage_precontract_lianxifangshi">公寓联系方式</string>
+    <string name="manage_precontract_029_11112222">029-11112222</string>
+    <string name="manage_signing_loft_a">万科泊寓（软件园店）LOFT A户型</string>
+    <string name="manage_signing_62">地址:西安市雁塔区科技三路62号</string>
+    <string name="manage_signing_dingdan">订单编号</string>
+    <string name="manage_signing_20170725083001122">20170725083001122</string>
+    <string name="manage_signing_zuzhuriqi">租住日期</string>
+    <string name="manage_signing_2017_7_16_2018_7_15">2017.7.16-2018.7.15</string>
+    <string name="manage_signing_ruzhufangjian">入住房间</string>
+    <string name="manage_signing_101">101</string>
+    <string name="manage_signing_yifuyajin">已付押金</string>
+    <string name="manage_signing_1511">￥1511</string>
+    <string name="manage_signing_zhifujihua">支付计划</string>
+    <string name="manage_signing_1511nian">年支付:￥1511/月</string>
+    <string name="manage_signing_2018_7_15">支付日:2018年7月15日</string>
+    <string name="manage_signing_ewai">额外费用</string>
+    <string name="manage_signing_yincang">我是隐藏的额外费用</string>
+    <string name="manage_signing_shuifei">水费</string>
+    <string name="manage_signing_0_5lifangmi">￥0.5立方米</string>
+    <string name="manage_signing_dianfei">电费</string>
+    <string name="manage_signing_0_5du">￥0.5/度</string>
+    <string name="manage_signing_wuyefei">物业费</string>
+    <string name="manage_signing_150">￥150/月</string>
+    <string name="manage_signing_lianxi">公寓联系方式</string>
+    <string name="manage_signing_029_11112222">029-11112222</string>
+
+    <string-array name="orders">
+        <item>全部预约</item>
+        <item>全部预订</item>
+        <item>全部签约</item>
+    </string-array>
+    <string-array name="privileges">
+        <item>信用</item>
+        <item>红包</item>
+        <item>积分</item>
+        <item>优惠券</item>
+    </string-array>
+    <string-array name="manage">
+        <item>我的合同</item>
+        <item>账单缴费</item>
+        <item>智能门锁</item>
+        <item>保洁服务</item>
+        <item>我要报修</item>
+        <item>我要投诉</item>
+        <item>我要续租</item>
+        <item>我要退租</item>
+        <item>公寓手册</item>
+    </string-array>
+</resources>

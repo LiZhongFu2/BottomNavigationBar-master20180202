@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ll_manage_precontract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dividerColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_precontract_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_yuyuezhuangtai"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_success_precontract"
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_precontract_yuyuechenggong"
+                android:textColor="@color/colorMain" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_precontract_hot_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorwhite">
+
+            <ImageView
+                android:id="@+id/iv_house"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_department5" />
+
+            <TextView
+                android:id="@+id/tv_house"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_house"
+                android:layout_toEndOf="@+id/iv_house"
+                android:layout_marginLeft="10dp"
+                android:text="@string/manage_precontract_loft_a"
+                android:textColor="@color/colorblack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tv_house"
+                android:layout_below="@+id/tv_house"
+                android:layout_marginTop="10dp"
+                android:text="@string/manage_precontract_62"
+                android:textColor="#666666"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_order_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_dingdanbianhao"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_success_order_number"
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_precontract_20170725083001122" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_precontact_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_yudingshijian"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_precontact_time"
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_precontract_2017_07_25_08_30" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pay_plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_hot_apartment"
+                android:drawablePadding="5dp"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_zhifujihua"
+                android:textColor="@color/textBlack" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mouth_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_1679_1799"
+                android:textColor="@color/textBlack" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_year_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_1511_1617"
+                android:textColor="@color/textBlack" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_extra_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_hot_apartment"
+                android:drawablePadding="5dp"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_ewaifeiyong"
+                android:textColor="@color/textBlack" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_water_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_shuifei"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_water_cost"
+                style="@style/TxtTitleStyleGray"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_precontract_0_5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_electric_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_dianfei"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_electric_cost"
+                style="@style/TxtTitleStyleGray"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_precontract_0_5du" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_management_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_wuyefei"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_ll_management_cost"
+                style="@style/TxtTitleStyleGray"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_precontract_150" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_contract_way"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_setting_item"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TxtTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/manage_precontract_lianxifangshi"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_contract_way"
+                style="@style/TxtTitleStyleGray"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_height_default"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/manage_precontract_029_11112222" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

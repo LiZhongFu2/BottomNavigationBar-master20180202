@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dividerColor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/tv_wolfkill_head1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="万科泊寓"
+            android:textSize="11sp"
+            android:textColor="@color/textDarkGray"
+            android:drawableLeft="@drawable/ic_logo_wankeboyu"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tv_wolfkill_head1"
+            android:layout_below="@+id/tv_wolfkill_head1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_langrensha"
+            android:id="@+id/imageView_share1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView_share1"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imageView_share1"
+            android:text="狼人杀活动"
+            android:textColor="@color/textBlack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/tv_share_langrensha1" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tv_share_langrensha1"
+            android:layout_below="@+id/tv_share_langrensha1"
+            android:layout_marginTop="10dp"
+            android:text="活动简介活动简介活动简介活动简介活动简介活动简介活动简介..."
+            android:textColor="@color/textDarkGray"
+            android:textSize="12dp"
+            android:id="@+id/tv_share_activity1" />
+
+        <TextView
+            android:id="@+id/tv_share_address1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_share_time"
+            android:layout_alignStart="@+id/tv_share_activity1"
+            android:text="地址:西安市雁塔区建东街"
+            android:textColor="@color/textDarkGray"
+            android:layout_marginBottom="10dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_share1"
+            android:layout_alignStart="@+id/tv_share_address1"
+            android:layout_marginStart="0dp"
+            android:text="时间:2017.12.01-2018.2.25"
+            android:textColor="@color/textBlack"
+            android:textSize="10sp"
+            android:id="@+id/tv_share_time" />
+
+        <view
+            android:id="@+id/view_share1"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imageView_share1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dividerColor"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="5dp"
+            android:layout_below="@id/view_share1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="报名"
+            android:textSize="11sp"
+            android:layout_alignStart="@id/imageView_share1"
+            android:drawableLeft="@drawable/ic_sign_yellow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="私信"
+            android:drawableLeft="@drawable/ic_message"
+            android:textSize="11sp"
+            android:layout_below="@id/view_share1"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:drawablePadding="5dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_wolfkill_head2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_logo_lvdixincheng"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="万科泊寓"
+            android:textColor="@color/textDarkGray"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/imageView_share2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tv_wolfkill_head2"
+            android:layout_below="@+id/tv_wolfkill_head2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_langrensha" />
+
+        <TextView
+            android:id="@+id/tv_share_langren2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView_share2"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imageView_share2"
+            android:text="狼人杀活动"
+            android:textColor="@color/textBlack"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_share_activity2"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tv_share_langren2"
+            android:layout_below="@+id/tv_share_langren2"
+            android:layout_marginTop="10dp"
+            android:text="活动简介活动简介活动简介活动简介活动简介活动简介活动简介..."
+            android:textColor="@color/textDarkGray"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_share_address2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_share_time2"
+            android:layout_alignStart="@+id/tv_share_activity2"
+            android:layout_marginBottom="10dp"
+            android:text="地址:西安市雁塔区科技路"
+            android:textColor="@color/textDarkGray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_share_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_share2"
+            android:layout_alignStart="@+id/tv_share_address2"
+            android:layout_marginStart="0dp"
+            android:text="时间:2017.12.01-2017.12.31"
+            android:textColor="@color/textBlack"
+            android:textSize="10sp" />
+
+
+        <view
+            android:id="@+id/view_share2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imageView_share2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dividerColor"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="5dp"
+            android:layout_below="@id/view_share2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="报名已结束"
+            android:textSize="11sp"
+            android:layout_alignStart="@id/imageView_share2"
+            android:drawableLeft="@drawable/ic_sign_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="私信"
+            android:drawableLeft="@drawable/ic_message"
+            android:textSize="11sp"
+            android:layout_below="@id/view_share2"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:drawablePadding="5dp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

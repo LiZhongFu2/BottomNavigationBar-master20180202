@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dividerColor"
+        android:orientation="vertical">
+
+        <com.master.qualitydepartment.UniversallyTitle
+            android:id="@+id/title_payment_bill"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+        </com.master.qualitydepartment.UniversallyTitle>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/tv_payment_bill_unpaid"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/selector_circle_button"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_bill_benyueweizhifu"
+                android:textSize="14sp"
+                android:textColor="@color/textBlack" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_white"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_margin="15dp">
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_zujin"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_rent"
+                    android:text="@string/payment_bill_0_00"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill__5_0_m_3"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_water"
+                    android:text="@string/payment_bill_30m_3"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_0_5"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_electricity"
+                    android:text="@string/payment_bill_30"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_2017_8"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_property"
+                    android:text="@string/payment_bill_150_00"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_1"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_others"
+                    android:text="@string/payment_bill_10_00"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_heji"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_total_cost"
+                    android:text="@string/payment_bill_160_00"
+                    style="@style/Tv_payment_bill_yellow" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_payment_bill_immPay"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                style="@style/OrangeButtonSmall"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/payment_bill_lijijiaofei" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:id="@+id/tv_payment_bill_paid"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/selector_circle_button"
+                android:enabled="false"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_bill_yizhifu"
+                android:textSize="14sp"
+                android:textColor="@color/textBlack" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_white"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_margin="15dp">
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_n_2017_7_16_2018_7_15"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_rent2"
+                    android:text="@string/payment_bill_18132_00"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_50m_3_5_0_m_3"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_water2"
+                    android:text="@string/payment_bill_500_00"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_100_0_5"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_electricity2"
+                    android:text="@string/payment_bill_50_0"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_2017_7"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_property2"
+                    android:text="@string/payment_bill_150_00"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_qitafeiyong"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_others2"
+                    android:text="@string/payment_bill_10_00"
+                    style="@style/Tv_payment_bill_black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Lin_payment_bill_item">
+                <TextView
+                    android:text="@string/payment_bill_heji"
+                    android:layout_weight="1"
+                    style="@style/Tv_payment_bill_gray" />
+                <TextView
+                    android:id="@+id/tv_payment_bill_total_cost2"
+                    android:text="@string/payment_bill_18332_00"
+                    style="@style/Tv_payment_bill_yellow" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

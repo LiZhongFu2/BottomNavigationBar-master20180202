@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.master.qualitydepartment.UniversallyTitle
+        android:id="@+id/title_integral_explanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+    </com.master.qualitydepartment.UniversallyTitle>
+    <TextView
+        android:id="@+id/tv_integral_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="积分说明归本平台解释说名，具体文字积分说名归本平台
+解释说名，具体文字积分说名归本平台解释说名，具体文字积分说名归本平台解释
+说名，具体文字积分说名"
+        android:textColor="@color/textBlack"
+        android:padding="16dp"/>
+
+</LinearLayout>

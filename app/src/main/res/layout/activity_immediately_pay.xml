@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dividerColor">
+
+    <com.master.qualitydepartment.UniversallyTitle
+        android:id="@+id/title_immediate_payment"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+    </com.master.qualitydepartment.UniversallyTitle>
+
+    <RelativeLayout
+        android:id="@+id/second_rl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/title_immediate_payment">
+        <TextView
+            android:id="@+id/tv_bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/immediately_pay_2018_1"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/third_rl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/second_rl"
+        android:background="@color/white">
+        <CheckBox
+            android:id="@+id/cb_rent"
+            style="@style/CheckBoxStyle"
+            android:text="@string/immediately_pay_zujin" />
+        <TextView
+            android:id="@+id/money_rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cb_rent"
+            android:layout_alignBottom="@+id/cb_rent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:text="@string/immediately_pay_0_00"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/forth_rl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/third_rl"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+        <CheckBox
+            android:id="@+id/cb_water_cost"
+            android:text="@string/immediately_pay_shuifei"
+            style="@style/CheckBoxStyle" />
+        <TextView
+            android:id="@+id/money_style"
+            android:layout_alignBaseline="@+id/input_bought_money"
+            android:layout_alignBottom="@+id/input_bought_money"
+            android:layout_toStartOf="@+id/input_bought_money"
+            style="@style/RenMinBiSymbol"/>
+        <EditText
+            android:id="@+id/input_bought_money"
+            android:hint="@string/immediately_pay_shurujine"
+            android:enabled="false"
+            android:inputType="numberDecimal"
+            style="@style/EditViewStyleHint"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fifth_rl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/forth_rl"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+        <CheckBox
+            android:id="@+id/cb_electic_cost"
+            style="@style/CheckBoxStyle"
+            android:text="@string/immediately_pay_dianfei" />
+        <TextView
+            android:id="@+id/money_style_two"
+            android:layout_alignBaseline="@+id/input_money"
+            android:layout_alignBottom="@+id/input_money"
+            android:layout_toStartOf="@+id/input_money"
+            style="@style/RenMinBiSymbol"
+              />
+        <EditText
+            android:id="@+id/input_money"
+            android:hint="@string/immediately_pay_shurujine"
+            android:enabled="false"
+            android:inputType="numberDecimal"
+            style="@style/EditViewStyleHint"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sixth_rl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/fifth_rl"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+        <CheckBox
+            android:id="@+id/cb_property_fee"
+            style="@style/CheckBoxStyle"
+            android:text="@string/immediately_pay_wuyefei" />
+        <TextView
+            android:id="@+id/money_style_three"
+            android:layout_alignBaseline="@+id/input_property_money"
+            android:layout_alignBottom="@+id/input_property_money"
+            android:layout_toStartOf="@+id/input_property_money"
+            style="@style/RenMinBiSymbol"/>
+        <EditText
+            android:id="@+id/input_property_money"
+            android:text="@string/immediately_pay_150_00"
+            android:inputType="number"
+            style="@style/EditViewStyleHint"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/seventh_rl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/sixth_rl"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+        <CheckBox
+            android:id="@+id/cbother_fee"
+            style="@style/CheckBoxStyle"
+            android:text="@string/immediately_pay_qitafei" />
+        <TextView
+            android:id="@+id/money_style_four"
+            android:layout_alignBaseline="@+id/input_other_money"
+            android:layout_alignBottom="@+id/input_other_money"
+            android:layout_toStartOf="@+id/input_other_money"
+            style="@style/RenMinBiSymbol"/>
+        <EditText
+            android:id="@+id/input_other_money"
+            android:inputType="number"
+            android:text="@string/immediately_pay_10_00"
+            style="@style/EditViewStyleHint"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/end_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:text="@string/immediately_pay_heji"
+            android:textColor="@color/textDarkGray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_all_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_all"
+            android:layout_alignBottom="@+id/tv_all"
+            android:layout_toEndOf="@+id/tv_all"
+            android:text="@string/immediately_pay_renminbi"
+            android:textColor="#f90418"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_add_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_all_money"
+            android:layout_alignBottom="@+id/tv_all_money"
+            android:layout_toEndOf="@+id/tv_all_money"
+            android:text="@string/immediately_pay_160_00"
+            android:textColor="#f3051d"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/immedite_payment_all"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            style="@style/OrangeButtonSmall"
+            android:text="@string/immediately_pay_lijijiaofei" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dividerColor"
+    android:orientation="vertical">
+
+    <com.master.qualitydepartment.UniversallyTitle
+        android:id="@+id/title_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.master.qualitydepartment.UniversallyTitle>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_payment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/payment_2018_1"
+            android:textColor="#333333"/>
+        <TextView
+            android:id="@+id/tv_payment_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#333333"
+            android:text="@string/payment_210_00"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:textSize="15dp"
+        android:textColor="#333333"
+        android:text="@string/payment_xuzezhifu"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_payment_wallet"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_my_wallet"
+        android:clickable="true"
+        android:drawableRight="@drawable/selector_checkbox"
+        android:text="@string/payment_wodeqianbao"
+        android:layout_marginTop="1dp"
+        style="@style/TextViewPaymentItem" />
+
+    <TextView
+        android:id="@+id/tv_payment_alipay"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_payment_alipay"
+        android:clickable="true"
+        android:drawableRight="@drawable/selector_checkbox"
+        android:text="@string/paymentz_zhifubao"
+        android:layout_marginTop="1dp"
+        style="@style/TextViewPaymentItem" />
+
+    <TextView
+        android:id="@+id/tv_payment_wechat"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_payment_wechat"
+        android:clickable="true"
+        android:drawableRight="@drawable/selector_checkbox"
+        android:text="@string/payment_weixin"
+        android:layout_marginTop="1dp"
+        style="@style/TextViewPaymentItem" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_fukuanjine"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                android:paddingLeft="15dp"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/tv_payment_cost2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#ff0000"
+                android:text="@string/payment_210"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_payment_affirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/OrangeButtonSmall"
+            android:text="@string/payment_queren"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

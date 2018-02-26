@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/tv_share_changzu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/colorMain"
+            android:text="长租经验"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tv_share_jingcai"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/textBlack"
+            android:text="精彩活动"
+            android:textSize="16sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tv_share_zhuyou"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/textBlack"
+            android:text="住友私信"
+            android:textSize="16sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv_share_jinghua"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/textBlack"
+            android:text="全部精华"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:drawableRight="@drawable/ic_select_superscript"
+            android:drawablePadding="5dp"/>
+        <TextView
+            android:id="@+id/tv_share_huodong"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/textBlack"
+            android:text="寻找活动"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:drawableRight="@drawable/ic_select_superscript"/>
+        <TextView
+            android:id="@+id/tv_share_paixu"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/textBlack"
+            android:text="默认排序"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:drawableRight="@drawable/ic_select_superscript"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor"/>
+
+</LinearLayout>

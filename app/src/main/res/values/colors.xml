@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#000000</color>
+    <color name="black2">#ffeeeeee</color>
+    <color name="colorMain">#f4a805</color>
+    <color name="colorMainTranslucent">#7df4a805</color>
+    <color name="colorSecondary">#ec8906</color>
+    <color name="backgroudColor">#E1E1E1</color>
+    <color name="textBlack">#333333</color>
+    <color name="textDarkGray">#666666</color>
+    <color name="textLightGray">#999999</color>
+    <color name="dividerColor">#EEEEEE</color>
+
+    <!--以下来自胡凡-->
+    <color name="colorBackground">#f5f5f5</color>
+    <color name="colorLineDivide">#e1e1e1</color>
+    <color name="colorTextHint">#ffffff</color>
+    <color name="colorButtonGray">#aaaaaa</color>
+    <color name="colorFontWhite">#ffffff</color>
+    <color name="colorFontBlack">#333333</color>
+    <color name="colorFontDeepGray">#666666</color>
+    <color name="colorFontLightGray">#999999</color>
+    <color name="colorLucency">#00fafafa</color>
+
+    <color name="colorWhite">#00ffffff</color>
+    <color name="colorOrange">#ec9946</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="colorBalck">#000000</color>
+
+    <color name="colorblack">#060606</color>
+    <color name="colorgray">#bbb8b8</color>
+    <color name="colororange">#fdf6b318</color>
+
+
+    <color name="colororenge">#80f4a805</color>
+    <color name="colornull">#00ffffff</color>
+
+    <color name="orange">#73ffa500</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="palewhite">#81ffffff</color>
+
+</resources>

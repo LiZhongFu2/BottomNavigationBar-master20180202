@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dia_root"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_dialog1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="提示"/>
+    <Button
+        android:id="@+id/btn_dialog2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="租房经验发布" />
+    <Button
+        android:id="@+id/btn_dialog3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="拍照"/>
+    <Button
+        android:id="@+id/btn_dialog4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="万科博宇——分店列表"/>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.master.qualitydepartment.fragment.ManageFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        style="@style/Font_32_px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_login_dengluhou"/>
+    <Button
+        android:id="@+id/btn_manage_login"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        style="@style/OrangeButtonLargePressed36dp"
+        android:text="@string/manage_login_denglu" />
+
+</LinearLayout>

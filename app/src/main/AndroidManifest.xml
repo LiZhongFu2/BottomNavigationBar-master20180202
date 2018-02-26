@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.master.qualitydepartment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".CreditActivity" />
+        <activity android:name=".PointsActivity" />
+        <activity android:name=".WalletActivity" />
+        <activity android:name=".ContractActivity" />
+        <activity android:name=".PaymentBillActivity"/>
+        <activity android:name=".ImmediatelyPayActivity"/>
+        <activity android:name=".PaymentActivity"/>
+        <activity android:name=".PointRecordActivity"></activity>
+        <activity android:name=".dialog.dialogothers">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

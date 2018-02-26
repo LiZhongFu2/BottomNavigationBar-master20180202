@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/moments"
+        android:icon="@drawable/ic_issue_exp"
+        android:title="发布经验" />
+    <item
+        android:id="@+id/wechat"
+        android:icon="@drawable/ic_issue_copy"
+        android:title="发布活动" />
+</menu>
